@@ -1,0 +1,17 @@
+{
+  "common": {
+    "viewDetails": "View Details",
+    "price": "Price",
+    "description": "Description",
+    "back": "Back to Products"
+  },
+  "products": {
+    "title": "Our Products",
+    "notFound": "Product not found"
+  },
+  "nav": {
+    "language": "Language",
+    "english": "English",
+    "arabic": "Arabic"
+  }
+}

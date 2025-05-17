@@ -1,0 +1,17 @@
+{
+  "common": {
+    "viewDetails": "عرض التفاصيل",
+    "price": "السعر",
+    "description": "الوصف",
+    "back": "العودة إلى المنتجات"
+  },
+  "products": {
+    "title": "منتجاتنا",
+    "notFound": "المنتج غير موجود"
+  },
+  "nav": {
+    "language": "اللغة",
+    "english": "الإنجليزية",
+    "arabic": "العربية"
+  }
+}
