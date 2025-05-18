@@ -1,10 +1,16 @@
-import { createSharedPathnamesNavigation } from "next-intl/navigation";
+import { createLocalizedPathnamesNavigation } from "next-intl/navigation";
 
 export const locales = ["en", "ar"];
 export const defaultLocale = "en";
 
 export const { Link, redirect, usePathname, useRouter } =
-  createSharedPathnamesNavigation({ locales });
+  createLocalizedPathnamesNavigation({
+    locales,
+    pathnames: {
+      "/": "/",
+      "/product/[id]": "/product/[id]",
+    },
+  });
 
 export function getDirection(locale) {
   return locale === "ar" ? "rtl" : "ltr";
