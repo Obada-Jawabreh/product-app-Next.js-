@@ -41,7 +41,7 @@ export default async function ProductPage({ params: { id, locale } }) {
                 <p className="text-gray-700">{product.description}</p>
               </div>
               <Link
-                href={`/`}
+                href="/"
                 className="inline-block bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition-colors duration-300"
               >
                 {t("common.back")}
